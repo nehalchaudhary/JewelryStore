@@ -1,0 +1,153 @@
+
+body 
+{ 
+	margin: 0; 
+	background-image:url('/~jadrn005/proj1/foo/diamonds');
+	z-index:-1;
+}
+
+h2 
+{ 
+	text-align: center; 
+}
+
+form
+{
+	//background-image:url('/~jadrn005/proj1/foo/diamonds');
+//	opacity:0.2;
+//	z-index:1;
+//	height:100%;
+	width:100%;
+	position:relative;
+	margin-top:0px;
+	text-align:center;
+	border-radius: 0px 0px 15px 15px;
+	  box-shadow: inset 0px 0px 10px #000000;
+}
+#t1,#t2,#t3 
+{
+	//opacity:0.0;
+	background-color:#FF00FF;
+//	background-image:url('/~jadrn005/proj1/foo/diamonds');
+  // 	height: 80%;
+	width:55%;
+	margin-left:23%;
+//    opacity:0.0;
+    background: #FFF;
+//    border: 1px solid #009;
+    padding: 0px;
+//    text-align: center;
+    	border-radius: 0px 0px 15px 15px;
+}
+
+.ui-tabs-hide 
+{
+    display: none;
+}
+
+div#tabs
+{
+	 position: absolute;
+	 z-index:-1;
+//	 margin: 0% 20% 0% 20%;
+	 height: 100%;
+ 	 min-width:100%;
+}
+    
+div#tabs ul 
+{
+	border-radius: 15px 15px 0px 0px;
+    	list-style: none;
+    	padding: 0;
+    	margin: 0;
+    	height: 45px;
+	width:55%;
+	background: #000;
+	color:white;
+	border:none;
+	margin-left:23%;
+}
+
+div#tabs ul li
+{
+	padding:10px;
+	 height: 25px;
+}
+#first_tab,#second_tab,#third_tab
+{
+//    opacity:0.0;
+    float: left;
+    height: 45px;
+    padding: 0px 10px 0 10px;
+    //margin-left: 5px;
+	
+    //border: 1px solid rgb(200, 200, 200);
+    border-bottom: none;
+  //  position: relative;
+//    background: #AAF;
+	text-color: white;
+	display: inline-block;
+	border-radius: 15px 15px 0px 0px;
+}
+
+
+/*#second_tab,#third_tab
+{
+	//margin: 6px 0px 6px 6px;
+}*/
+div#tabs ul li a 
+{
+//	padding-top:30px;
+	//margin-top:10px;  	
+        text-decoration: none;
+	class="sansserif";
+	color: white;
+//	height:45px;
+	height:100%;
+}
+
+div#tabs ul li.ui-tabs-selected 
+{
+   background: #FFF;
+   box-shadow: inset 0px 0px 10px #000000;
+}
+
+div#tabs ul li.ui-tabs-selected a 
+{
+   color: #000;
+   
+  // box-shadow: 0px 0px 10px #000000;
+}
+
+div#tabs ul li:hover {
+    //background-position: -420px -31px;
+//    background: #000;
+}
+
+#logout{
+	background-color: #000000;
+	color: #fff;
+//	display: block;
+	margin: 0 auto;
+	//padding: 4px 0;
+	width: 80px;
+	height: 30px;
+	margin-left: 70%;
+	margin-top:0px;
+}
+
+#logout:hover {
+	background-color: #383838;
+	cursor:pointer;
+	border-color: #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+#heading
+{
+	font-family:"Brush Script MT", cursive;
+//	margin-left:400px;
+	font-size:350%;
+	text-align:center;
+	
+}

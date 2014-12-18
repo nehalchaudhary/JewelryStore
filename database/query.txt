@@ -1,0 +1,2 @@
+use jadrn005;
+SELECT distinct p.sku,v.vendor_name,p.manu_id,p.description,p.feature,p.cost,p.image FROM products p,category c, vendor v where p.category_key = (select category_key from category where category_name = 'Necklace') and p.vendor_key=v.vendor_key

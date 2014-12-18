@@ -1,0 +1,275 @@
+
+/* source : http://css-tricks.com/examples/WebKitScrollbars/; */
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.4); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+#heading
+{
+	//height: 10%;
+	margin-left: 32%;
+	//text-align: center;
+}
+.cart_product,.cart_quantity,.delete,.err_quantity
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 10;	
+	text-align: center;
+}
+#payment_summary
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 11;		
+
+}
+.total
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12;	
+	text-align: right;
+	width:150px;
+}
+.total_value
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12;	
+	text-align: left;
+	width:100px;
+}
+#checkout
+{
+	text-align: center;
+	margin-left: 30%;
+}
+#shipping_table,#cart_table
+{
+	border-width:0px;	
+}
+.err_quantity
+{
+	color:red;
+	text-align: center;
+}
+/*.cart_product_name
+{
+	width:30px;
+}
+*/.cart_quantity
+{
+	width: 30px;
+}
+div.category,div.content,div.body,div.details_pic,div.details_product
+{
+	position: absolute;
+	border-color: #000000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 11;	
+	//border-width: 1px;
+	//border-style: solid;
+}
+div.body,div.details_pic,div.details_product
+{
+	border-width: 1px;
+	border-style: solid;
+	text-align:center;
+}
+	
+/*.smallFont
+{
+	font-size: 10px;	
+}*/
+p
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12;
+}
+.products_table td
+{
+	width:25%;
+}
+.product_details
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 10px;	
+}
+td
+{
+	vertical-align:top;
+}
+.products_table table,td,tr
+{
+	/*border-color: #000000;
+	border-style: solid;
+	border-width:1px;*/
+}
+div.category
+{
+	width: 30%;
+	height: 45%;
+
+}
+div.prod_body
+{
+	width: 100%;
+	height: 95%;
+	border-color: #000000;
+	border-style: solid;
+	border-width:1px;
+	overflow:scroll;	
+}
+#img
+{
+	width: 40px;
+	height: 40px;
+}
+div.img
+{
+	width: 40px;
+	height: 40px;
+}
+#necklace
+{
+	left:10%;
+	top: 25%;
+}
+#bracelet
+{
+	left:42%;
+	top: 25%;	
+}
+#earrings
+{
+	left:10%;
+	top: 75%;	
+}
+#watches
+{
+	left:42%;
+	top: 75%;	
+}
+#rings
+{
+	left:10%;
+	top: 125%;	
+}
+#cart
+{
+	left:75%;
+	top: 28%;		
+	width: 22%;
+	height: 100%;
+}
+div.content
+{
+	left:10%;
+	top:20%;
+	width:62%;
+	height:120%;
+}
+#home
+{
+	//left:10%;
+	//top:20%;
+	width:96%;
+	height:100%;	
+}
+#dialog
+{
+//	left:25%;
+	//top: 30%;		
+	width: 100%;
+	height: 100%;
+	background-color:white;
+}
+
+button
+{
+	background-color: #000000;
+	color: #fff;
+	//display: block;
+	margin-left: 170px;
+	padding: 4px 0;
+	width: 100px;
+	//height: 40px;
+	border-radius: 12px 12px 12px 12px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+#checkout
+{
+	background-color: #000000;
+	color: #fff;
+	//display: block;
+	margin-left: 70px;
+	padding: 4px 0;
+	width: 100px;
+	//height: 40px;
+	border-radius: 12px 12px 12px 12px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+button:hover,#checkout:hover {
+	background-color: #383838;
+	cursor:pointer;
+	border-color: #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.product_name
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;	
+	font-weight:bold;
+	text-decoration:underline;
+	text-align: center;
+}
+.product_price
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;	
+	text-align: center;	
+}
+
+.product:hover
+{
+	cursor:pointer;
+	border-color: #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+#shipping_tab,#payment_sum
+{
+	height:40%;
+	overflow:scroll;
+}
+td.right-align
+{
+	text-align: right;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 9px;	
+}
+td.left-align
+{
+	text-align:left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 9px;	
+}
+td.delete:hover
+{
+	cursor:pointer;
+}

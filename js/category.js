@@ -1,0 +1,63 @@
+$(document).ready(
+function() 
+{
+//	alert("hi");
+	//$("#tabs").tabs();   
+	
+
+	
+	$('#necklace_button').bind('click',function()
+	{
+		$('#home').hide();
+		$('#content_necklace').show();
+		$('#content_bracelet').hide();
+		$('#content_earrings').hide();
+		$('#content_watches').hide();
+		$('#content_rings').hide();
+	});
+	$('#bracelet_button').bind('click',function()
+	{
+		$('#home').hide();
+		$('#content_necklace').hide();
+		$('#content_bracelet').show();
+		$('#content_earrings').hide();
+		$('#content_watches').hide();
+		$('#content_rings').hide();
+	});
+	$('#earrings_button').bind('click',function()
+	{
+		$('#home').hide();
+		$('#content_necklace').hide();
+		$('#content_bracelet').hide();
+		$('#content_earrings').show();
+		$('#content_watches').hide();
+		$('#content_rings').hide();
+	});
+	$('#watches_button').bind('click',function()
+	{
+		$('#home').hide();
+		$('#content_necklace').hide();
+		$('#content_bracelet').hide();
+		$('#content_earrings').hide();
+		$('#content_watches').show();
+		$('#content_rings').hide();
+	});
+	$('#rings_button').bind('click',function()
+	{
+		$('#home').hide();
+		$('#content_necklace').hide();
+		$('#content_bracelet').hide();
+		$('#content_earrings').hide();
+		$('#content_watches').hide();
+		$('#content_rings').show();
+	});
+	$('.back').bind('click',function()
+	{
+		$('#home').show();
+		$('#content_necklace').hide();
+		$('#content_bracelet').hide();
+		$('#content_earrings').hide();
+		$('#content_watches').hide();
+		$('#content_rings').hide();
+	});
+});

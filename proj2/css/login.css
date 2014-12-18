@@ -1,0 +1,107 @@
+
+/* source from http://cssdeck.com/labs/ryn8lp74*/
+
+body {
+	background-image:url('/~jadrn005/proj1/foo/diamonds');
+	background-color: #C0C0C0;
+	color: #000;
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+input {
+	border: none;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+}
+
+label
+{
+	border: none;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 120%;
+	color:#000000;
+}
+
+h1
+{
+	font-family:"Brush Script MT", cursive;
+//	margin-left:400px;
+	font-size:350%;
+	text-align:center;
+}
+
+#invalid
+{
+	color:#000000;
+	text-align:center;
+}
+
+#login {
+	margin: 20px auto;
+	width: 400px;
+}
+
+#login h2 {
+	background-color: #000000;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 26px;
+	padding: 15px 20px;
+	width:350px;
+	border: 2px solid black;
+	margin-right:14px;
+	align:right;
+	margin-left:400px;
+	margin-bottom:0px;
+}
+
+#login form {
+	width:350px;
+	background-color: #fff;
+	border-radius: 0 0 20px 20px;
+	padding: 15px 20px;
+	border: 2px solid black;
+	margin-left:400px;
+}
+
+#login form p {
+	color: #777;
+//	margin-bottom: 10px;
+}
+
+
+#login form input {
+	border-radius: 3px;
+}
+
+#username, #password{
+	background-color: #eee;
+	color: #777;
+	padding: 4px 10px;
+	width: 300px;
+}
+
+#submit{
+	background-color: #000000;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 100px;
+	height: 40px;
+//	border-radius: 20px 8px 8px 8px;
+}
+
+#submit:hover {
+	background-color: #383838;
+	cursor:pointer;
+	border-color: #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+#username:focus,#password:focus,#username:hover,#password:hover{
+	 border-color: #000000;
+	 box-shadow: 0px 0px 10px #000000;
+	 }

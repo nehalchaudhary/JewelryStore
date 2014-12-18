@@ -1,0 +1,5 @@
+use jadrn005;
+drop table if exists merchandise_out;
+create table merchandise_out(sku varchar(7),
+			Date date,
+			quantity integer);

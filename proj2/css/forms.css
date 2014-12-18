@@ -1,0 +1,73 @@
+table
+{
+	margin-left:50px;
+	//border:1px solid #000000;
+	padding:10;
+	border-spacing:20px 10px;
+}
+
+td
+{
+	padding: 5px;
+//	border:1px solid #000000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+}
+input
+{
+	background-color: #eee;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#busy_wait
+{
+	text-align:center;
+}
+
+textarea
+{
+	background-color: #eee;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+td.alt 
+{
+	text-align:left;
+}
+
+td
+{
+	text-align:right;
+}
+
+input:hover,textarea:hover,select:hover,input:focus,textarea:focus,select:focus
+{
+	//background-color: #383838;
+	cursor:pointer;
+	border-color: #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+submit,reset
+{
+	background-color: #000000;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 100px;
+	height: 40px;
+}
+
+#message_line1,#message_line2,#message_line3,#o_message_line1,#o_message_line2,#o_message_line3
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	color:red;
+	margin-left:200px;
+}
+
+#t1
+{
+	background-color: #b8b8b8;
+}
